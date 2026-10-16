@@ -19,15 +19,15 @@ def display_result(name, marks):
     print("Marks:", marks)
     print("Grade:", grade)
 
-name = input(sys.argv[1])
-marks = input(sys.argv[2])
+name = input("Enter student name: ")
+marks = input("Enter marks: ")
 
-    if name == " ":
-        name = "Student"
+if name == "":
+    name = "Student"
 
-    if marks == " ":
-        marks = 75
+if marks == "":
+    marks = 75
 
-    marks = int(marks)
+marks = int(marks)
 
-    display_result(name, marks)        
+display_result(name, marks)
