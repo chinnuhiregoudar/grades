@@ -19,8 +19,8 @@ def display_result(name, marks):
     print("Marks:", marks)
     print("Grade:", grade)
 
-name = input("Enter student name: ")
-marks = input("Enter marks: ")
+name = ("Enter student name: ")
+marks = int("Enter marks: ")
 
 if name == "":
     name = "Student"
